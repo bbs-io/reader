@@ -1,7 +1,28 @@
 {
-  "name": "bbs-io-reader",
+  "name": "@bbs/reader",
   "private": true,
   "version": "0.0.0",
+  "description": "BBS.io Reader is a message reader application for BBS usage for NNTP and QWK",
+  "main": "src/main.tsx",
+  "keywords": ["bbs","nntp","forum","bulletinboard","smtp","pop","email","qwk"],
+  "author": "Michael J. Ryan <github@tracker1.dev> (https://tracker1.dev/)",
+  "contributors": [
+    {
+      "name": "Michael J. Ryan",
+      "email": "github@tracker1.dev",
+      "url": "https://tracker1.dev/"
+    }
+  ],
+  "homepage": "https://reader.bbs.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbs-io/reader.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/bbs-io/reader/issues",
+    "email" : "bbs-io-reader@tracker1.dev"
+  },
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "react": "^18.2.0",

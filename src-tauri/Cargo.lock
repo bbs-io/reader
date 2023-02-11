@@ -75,7 +75,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8"
 
 [[package]]
-name = "bbs-io-reader"
+name = "bbs_io_reader"
 version = "0.0.0"
 dependencies = [
  "serde",
