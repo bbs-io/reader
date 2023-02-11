@@ -45,23 +45,10 @@ integration beyond this.
 
 ### TODO
 
-High level TODO list.
+High level TODO list. Note: Anything before 1.0 can have breaking changes at any
+time regardless of the version.
 
-- [ ] Release Tracking (release-please)
-- [ ] Github Release Binaries
-  - Windows
-    - x64
-    - x64 offline (includes web components, very large)
-  - Mac
-    - x64
-    - aarch
-  - Linux
-    - x64 AppImage
-    - x64 .deb
-    - aarch arm7 AppImage
-    - aarch arm7 .deb
-    - aarch arm64 AppImage
-    - aarch arm64 .deb
+- [x] Release Tracking (release-please)
 - [ ] React + MUI front end
   - BBS Configuration Entry
 - [ ] Communication to/from Rust backend
@@ -80,14 +67,32 @@ High level TODO list.
 - [ ] Display Message (flat/plain text)
 - [ ] Purge Old/Read Support
   - Database vaccuum
-- [ ] E-Mail (smtp/pop)
-- [ ] Enhanced rendering (ansi/colors, etc)
-- [ ] MVP Release - Store integrations
+- [ ] Github Release Binaries (0.5.x)
+  - Windows
+    - x86_64 (msi, exe)
+    - x86_64 offline (include web component, large) (msi, exe)
+  - Mac
+    - x86_64 (dmg, .app.tgz)
+    - aarch64 (dmg, .app.tgz)
+  - Linux
+    - x86_64 AppImage
+    - x86_64 .deb
+    - armv7 AppImage
+    - armv7 .deb
+    - aarch64 AppImage
+    - aarch64 .deb
+- [ ] Automated updates (0.6.x)
+- [ ] E-Mail (smtp/pop) (0.7.x)
+- [ ] Enhanced rendering (ansi/colors, etc) (0.8.x)
+- [ ] MVP Release v1.0
+  - automated updates
+  - Will test in v0.9.x and Push 1.0 when working/tested
+- [ ] Store integrations
   - WinGet
   - Windows Store
   - Apple Mac Store
   - Flathub
-  - Snapcraft
+  - Snapcraft?
 - [ ] QWK Support
 - [ ] FTP for QWK
 - [ ] Message Attachments
