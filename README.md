@@ -30,13 +30,10 @@ may not follow _best practices_. On the backend, because I'm learning as I go.
 On the frontend, because I'm probably going to be taking shortcuts as a faster
 path to done.
 
-I do want to get automated builds first, because as a user, I prefer to have
-access to regular releases of software. If I handle this first, it will make it
-easier for users. I probably won't try to integrate into any release prospects
-until after I have an MVP of NNTP and Email (SMTP/POP) at the very least. I will
-be testing this against my own BBS, which runs Synchronet. I may also create
-extended support for some services specifically with Synchronet (ANSI User Icons
-and Polls).
+I probably won't try to integrate into any release prospects until after I have
+an MVP of NNTP and Email (SMTP/POP) at the very least. I will be testing this
+against my own BBS, which runs Synchronet. I may also create extended support
+for some services specifically with Synchronet (ANSI User Icons and Polls).
 
 Longer term, after MVP, but before enhanced rendering I will make an effort to
 get updating releases into the various stores for OS use... I will likely limit
