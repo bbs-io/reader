@@ -1,7 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import { invoke } from "@tauri-apps/api/tauri";
-// import "./App.css";
+import { useState } from 'react';
+
+import { invoke } from '@tauri-apps/api/tauri';
+import { Provider } from 'react-redux';
+
+import CssBaseline from '@mui/material/CssBaseline';
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import Container from '@mui/material/Container';
+import store from './state';
 
 function App() {
   // const [greetMsg, setGreetMsg] = useState("");
@@ -13,11 +22,13 @@ function App() {
   // }
 
   return (
-    <div className="container">
-      <h1>Hello Reader</h1>
-
-      <p>BBS.io Reader coming soon.</p>
-    </div>
+    <Provider store={store}>
+      <CssBaseline />
+      <Container>
+        <h1>Hello Reader</h1>
+        <p>BBS.io Reader coming soon.</p>
+      </Container>
+    </Provider>
   );
 }
 

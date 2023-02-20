@@ -1,0 +1,48 @@
+{
+  "files": {
+    "ignore": [
+      "node_modules/",
+      "build/",
+      "dist/",
+      "src/generated/api.shopping.ts",
+      "src/generated/api.shopping.json"
+    ]
+  },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "recommended": true,
+        "noExplicitAny": "off"
+      },
+      "complexity": {
+        "recommended": true
+      },
+      "correctness": {
+        "recommended": true
+      },
+      "security": {
+        "recommended": true
+      },
+      "nursery": {
+        "recommended": false
+      },
+      "performance": {
+        "recommended": true,
+        "noDelete": "off"
+      }
+    }
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentSize": 2,
+    "lineWidth": 80
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "quoteProperties": "asNeeded",
+      "trailingComma": "es5",
+      "semicolons": "always"
+    }
+  }
+}
