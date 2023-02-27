@@ -1,7 +1,7 @@
 {
   "name": "@bbs/reader",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "BBS.io Reader is a message reader application for BBS usage for NNTP and QWK",
   "main": "src/main.tsx",
   "keywords": [
